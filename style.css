@@ -11,41 +11,45 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color:green;
+ font-family:Arial, sans-serif;
+ background-color: green;
+ color: #222;
 }
 
-.header-container{
-    display: flex;
-    justify-content: center;
+ header{
+   background-color: black;
+   color: white;
+   display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color:black;
-    height:100px;
+    padding: 10px 40px;
+    text-transform: uppercase;
 
 }
 
-.header-center {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: absolute;
-}
-.center-image{
+.center-img {
     height: 60px;
-    width: auto;
 }
 
-.header-left{
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-    flex: 1;
+nav{
+    background: color #111;;
 }
 
-.header-right{
-    display:flex;
-    justify-content: flex-end;
-    color: white;
+nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
 }
+
+nav ul li {
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
