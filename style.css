@@ -81,6 +81,19 @@ main h1{
 
 
 /*hundar*/
+ 
+.hund {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.alaska{
+   font-weight: bold;
+   font-size: larger;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
 
 
 footer{
